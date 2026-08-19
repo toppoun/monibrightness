@@ -1,5 +1,6 @@
 using Microsoft.UI.Windowing;
 using Microsoft.UI.Xaml;
+using System.IO;
 
 namespace MoniBrightness;
 
@@ -19,7 +20,10 @@ public sealed partial class MainWindow : Window
         SetTitleBar(AppTitleBar);
 
         AppWindow.SetIcon(
-            "Assets/AppIcon.ico");
+            Path.Combine(
+                AppContext.BaseDirectory,
+                "Assets",
+                "AppIcon.ico"));
 
         RootFrame.Navigate(
             typeof(MainPage));

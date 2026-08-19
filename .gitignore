@@ -42,6 +42,9 @@ BundleArtifacts/
 publish/
 *.pubxml
 PublishScripts/
+*.pfx
+devcert.pfx
+devcert.cer
 
 # Code analysis and tooling
 _ReSharper*/
