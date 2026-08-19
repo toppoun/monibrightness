@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MoniBrightness (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "MoniBrightness (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
